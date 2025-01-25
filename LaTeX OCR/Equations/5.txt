@@ -1,0 +1,1 @@
+g(x) = \frac{1}{2\pi i}\int_{-\infty}^{\infty} \int^{\infty}_{-\infty}\frac{d\psi(\chi)}{d\chi}e^{\frac{i}{\hbar}(x-\chi)p}d\chi dp

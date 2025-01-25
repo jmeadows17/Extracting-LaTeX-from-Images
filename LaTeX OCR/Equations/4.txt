@@ -1,0 +1,1 @@
+\frac{\partial L}{\partial \dot{x}} = \frac{m}{2}\frac{\partial}{\partial \dot{x}}(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)\\ + q\frac{\partial}{\partial \dot{x}}(\dot{x}A_x + \dot{y}A_y + \dot{z}A_z) - q\frac{\partial}{\partial \dot{x}}\phi

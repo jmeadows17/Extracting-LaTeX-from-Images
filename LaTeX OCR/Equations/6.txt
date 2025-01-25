@@ -1,0 +1,1 @@
+\nabla \times \frac{1}{\mu_0}\mathbf{B} = \mathbf{J}_f + \frac{\partial}{\partial t}\varepsilon_0\mathbf{E} + \frac{\partial}{\partial t}\mathbf{P} + \mathbf{J}_M

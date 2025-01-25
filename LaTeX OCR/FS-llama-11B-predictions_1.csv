@@ -1,0 +1,94 @@
+,image,11B-prediction,reference
+0,<PIL.Image.Image image mode=RGB size=733x157 at 0x7F2EF3FAEDD0>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \nabla \cdot \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \varepsilon_0} \int \rho(\mathbf{s}) \nabla \cdot \frac{(\mathbf{r}-\mathbf{s})}{|\mathbf{r}-\mathbf{s}|^3} d^3 \mathbf{s} 
+
+Incorrect: \nabla \cdot \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \varepsilon",\nabla \cdot \mathbf{E}(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0} \int \rho(\mathbf{s}) \nabla \cdot \frac{(\mathbf{r} - \mathbf{s})}{|\mathbf{r} - \mathbf{s}|^3}d^3\mathbf{s}
+1,<PIL.Image.Image image mode=RGB size=701x105 at 0x7F2EF3FAC4C0>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \nabla \cdot \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \varepsilon_0} \int \rho(\mathbf{s})4 \pi \delta(\mathbf{r}-\mathbf{s})d^3 \mathbf{s} 
+
+Incorrect: \nabla \cdot \mathbf{E}(\mathbf{r}) = \frac{1}{4 \pi \varepsilon_0} \int \rho(\mathbf{s})4 \pi \delta(\math",\nabla \cdot \mathbf{E}(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0} \int \rho(\mathbf{s}) 4 \pi \delta (\mathbf{r} - \mathbf{s})d^3\mathbf{s}
+2,<PIL.Image.Image image mode=RGB size=602x121 at 0x7F2EF3FAE4A0>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \int \nabla \cdot(\phi \nabla \phi) dV = \int_{S} \phi \nabla \phi \cdot d \mathbf{S} 
+
+Incorrect: \int \nabla \cdot(\phi \nabla \phi) dV = \int_{S} \phi \nabla \phi \cdot d \mathbf{S} 
+
+The correct LaTeX expression is \int \nabla \cdot(\phi \nabla \phi) dV = \int_{S} \phi",\int_V \nabla \cdot (\phi\nabla\phi) dV = \int_S \phi\nabla\phi \cdot d\mathbf{S}
+3,<PIL.Image.Image image mode=RGB size=722x221 at 0x7F2EF822B670>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \frac{\partial L}{\partial \dot{x}} = \frac{m}{2} \frac{\partial}{\partial \dot{x}}\left(\dot{x}^2 + \dot{y}^2 + \dot{z}^2\right) \\ + q \frac{\partial}{\partial \dot{x}}\left(\dot{x}A_x + \dot{y}A_y + \dot{z}A_z\right) - q \frac{\partial}{\partial \dot{x}} \phi 
+
+Incorrect: \frac{\",\frac{\partial L}{\partial \dot{x}} = \frac{m}{2}\frac{\partial}{\partial \dot{x}}(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)\\ + q\frac{\partial}{\partial \dot{x}}(\dot{x}A_x + \dot{y}A_y + \dot{z}A_z) - q\frac{\partial}{\partial \dot{x}}\phi
+4,<PIL.Image.Image image mode=RGB size=782x137 at 0x7F2EF3FAF7F0>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right\r",g(x) = \frac{1}{2\pi i}\int_{-\infty}^{\infty} \int^{\infty}_{-\infty}\frac{d\psi(\chi)}{d\chi}e^{\frac{i}{\hbar}(x-\chi)p}d\chi dp
+5,<PIL.Image.Image image mode=RGB size=713x116 at 0x7F2EF3FACC40>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \nabla \times \frac{1}{\mu_0} \mathbf{B} = \mathbf{J}_f + \frac{\partial}{\partial t} \varepsilon_0 \mathbf{E} + \frac{\partial}{\partial t} \mathbf{P} + \mathbf{J}_M 
+
+Incorrect: \nabla \times \frac{1}{\mu_0} \mathbf{B} = \mathbf{J}_f + \frac{\partial}{\partial t} \",\nabla \times \frac{1}{\mu_0}\mathbf{B} = \mathbf{J}_f + \frac{\partial}{\partial t}\varepsilon_0\mathbf{E} + \frac{\partial}{\partial t}\mathbf{P} + \mathbf{J}_M
+6,<PIL.Image.Image image mode=RGB size=704x186 at 0x7F2EFA141B40>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { \dagger } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\",\int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi}
+7,<PIL.Image.Image image mode=RGB size=672x127 at 0x7F2EF3FAFEE0>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \frac{dJ_{\varepsilon}}{d\varepsilon}=\int_{a}^{b}\left(\frac{\partial L_{\varepsilon}}{\partial g_{\varepsilon}} \eta(x)+\frac{\partial L_{\varepsilon}}{\partial g_{\varepsilon}^{\prime}} \eta^{\prime}(x)\right)dx 
+
+Incorrect: \frac{dJ_{\varepsilon}}{d\varepsilon}=\int_{a}^{b}\left(\frac{\partial L_{",\frac{dJ_{\varepsilon}}{d\varepsilon} = \int_{a}^{b}(\frac{\partial L_{\varepsilon}}{\partial g_{\varepsilon}}\eta(x) + \frac{\partial L_{\varepsilon}}{\partial g_{\varepsilon}'} \eta '(x))dx
+8,<PIL.Image.Image image mode=RGB size=713x351 at 0x7F300DDD4730>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \frac{dE}{d\lambda}=\left\langle\frac{d\Psi}{d\lambda}\left|\hat{H}_{\lambda}\right| \Psi_{\lambda}\right\rangle \\ \quad+\left\langle\Psi_{\lambda}\left|\frac{d\hat{H}_{\lambda}}{d\lambda}\right| \Psi_{\lambda}\right\rangle \\ \quad+\left\langle\Psi_{\lambda}\left|\hat{H}_{\lambda}\right| \frac{d\Psi_{\lambda",\frac{d E_\lambda}{d\lambda} = \bra{\frac{d \Psi_\lambda}{d\lambda}} \hat{H}_\lambda\ket{\Psi_\lambda} \\ + \bra{\Psi_\lambda} \frac{d\hat{H}_\lambda}{d\lambda} \ket{\Psi_\lambda}\\ + \bra{\Psi_\lambda} \hat{H}_\lambda\ket{\frac{d \Psi_\lambda}{d\lambda}}
+9,<PIL.Image.Image image mode=RGB size=470x72 at 0x7F2EF8297670>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right\r",|\mathbf{p}|^2 d|\mathbf{p}| = m (2mE)^{\frac{1}{2}} dE
+10,<PIL.Image.Image image mode=RGB size=279x79 at 0x7F2EF822A950>,"<|begin_of_text|><|image|><|begin_of_text|>Determine the Correct LaTeX expression of the equation in the image. Below are examples of Incorrect and Correct LaTeX equations: 
+
+Incorrect: \int \left\langle x \mid \Psi \right\rangle \delta ^ { + } \left\langle x ^ { \prime } \mid \delta ^ { - } \left( x - x ^ { \prime } \right) \right\rangle \left\langle x ^ { \prime } \mid \left( x - x ^ { \prime } \right) \Psi \right\rangle \mathrm { d } x ^ { \prime } = \int \left\langle x ^ { \prime } \mid \Psi \right 
+
+Correct: \int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi} 
+
+Give the Correct LaTeX from the image. Correct: \phi = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi_1 \\ = \phi_2 - \phi",\phi = \phi_2 - \phi_1

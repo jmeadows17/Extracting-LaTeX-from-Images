@@ -1,0 +1,1 @@
+\frac{d E_\lambda}{d\lambda} = \bra{\frac{d \Psi_\lambda}{d\lambda}} \hat{H}_\lambda\ket{\Psi_\lambda} \\ + \bra{\Psi_\lambda} \frac{d\hat{H}_\lambda}{d\lambda} \ket{\Psi_\lambda}\\ + \bra{\Psi_\lambda} \hat{H}_\lambda\ket{\frac{d \Psi_\lambda}{d\lambda}}

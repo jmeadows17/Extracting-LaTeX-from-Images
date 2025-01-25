@@ -1,0 +1,1 @@
+\int \braket{x}{\Psi}^{\dagger}x'\delta(x-x') \braket{x'}{\Psi} dx' \\ = \braket{x}{\Psi}^{\dagger}x \braket{x}{\Psi}

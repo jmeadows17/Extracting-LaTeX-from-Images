@@ -1,0 +1,1 @@
+\int_V \nabla \cdot (\phi\nabla\phi) dV = \int_S \phi\nabla\phi \cdot d\mathbf{S}

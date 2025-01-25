@@ -1,0 +1,1 @@
+\frac{dJ_{\varepsilon}}{d\varepsilon} = \int_{a}^{b}(\frac{\partial L_{\varepsilon}}{\partial g_{\varepsilon}}\eta(x) + \frac{\partial L_{\varepsilon}}{\partial g_{\varepsilon}'} \eta '(x))dx
